@@ -1,14 +1,21 @@
 import React from 'react'
-
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import Text from './components/text'
+import Features from './components/features'
 import './app.css'
 
 
 function App() {
  
   return (
-    <main>
-   kemkaz global company website
-    </main>
+  <div className=' font-poppins'>
+  <Nav />
+  <Hero />
+  <Text />
+  <Features />
+
+  </div>
   )
 }
 
