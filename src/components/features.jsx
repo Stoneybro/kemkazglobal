@@ -9,7 +9,7 @@ const Features = () => {
     <div>
         <div className="lg:w-[1100px] mx-auto  my-24 px-6 lg:px-0">
             <div className="text-center text-4xl">OUR SERVICES</div>
-            <div className=" grid  grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-16 mt-16">
+            <div className=" grid  grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8 lg:gap-16 mt-14 lg:16">
                 <div className="flex gap-3 items-start ">
                     <div className="bg-primary rounded-full p-3 "><BiSolidPlaneAlt size={25} color={'white'} /></div>
                     <div className=" flex flex-col gap-1">
