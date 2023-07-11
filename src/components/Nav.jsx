@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div>
         <div className="flex items-center  justify-between py-6 px-8 lg:w-[1150px] mx-auto">
-            <div className=" text-xl w-3/4 lg:w-64">
+            <div className=" text-xl w-[12rem] md:w-64">
                 <img src={logo} />
             </div>
             <div className="lg:hidden"><BiMenu size={30} color='#1F7CFF' /></div>
