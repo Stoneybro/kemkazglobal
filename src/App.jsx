@@ -4,6 +4,8 @@ import Hero from './components/Hero'
 import Text from './components/text'
 import Features from './components/features'
 import About from './components/about'
+import Contact from './components/contact'
+import Footer from './components/footer'
 import './app.css'
 
 
@@ -16,6 +18,8 @@ function App() {
   <Text />
   <Features />
     <About />
+    <Contact />
+    <Footer />
   </div>
   )
 }
