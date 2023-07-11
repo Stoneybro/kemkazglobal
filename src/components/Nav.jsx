@@ -13,7 +13,7 @@ const Nav = () => {
                 <div className="">Home</div>
                 <div className="">About us</div>
                 <div className="">Services</div>
-                <div className=" hidden lg:block bg-primary px-6 py-2 rounded-3xl hover:border-primary border hover:bg-secondary hover:text-black text-white transition duration-300">Contact us</div>
+                <div className=" hidden lg:block bg-primary px-6 py-2 rounded-3xl hover:border-primary border hover:scale-105 text-white transition duration-300">Contact us</div>
             </div>
         </div>
     </div>
