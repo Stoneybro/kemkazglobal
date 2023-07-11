@@ -2,7 +2,7 @@ import React from 'react'
 import hero from '../../public/img/hero.jpg'
 const Hero = () => {
   return (
-    <div className="flex  lg:flex-row flex-col-reverse lg:w-[1150px] mx-auto items-center px-8 py-6 lg:py-12 gap lg:h-[calc(100vh-89px)]">
+    <div className="flex  lg:flex-row flex-col-reverse lg:w-[1150px] mx-auto items-center px-6 py-6 lg:py-12 gap lg:h-[calc(100vh-89px)]">
         <div className="flex-1 flex flex-col gap-6 items-start">
             <div className="text-4xl leading-normal">
             Empowering Success Through Integrated Solutions and Global Expertise
