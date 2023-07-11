@@ -1,12 +1,12 @@
 import React from 'react'
-
+import { BiMenu } from 'react-icons/bi'
 
 const Nav = () => {
   return (
     <div>
         <div className="flex items-center  justify-between py-6 px-8 lg:w-[1150px] mx-auto">
             <div className=" text-xl ">Kemkaz</div>
-            
+            <div className=""><BiMenu size={30} color='#1F7CFF' /></div>
             <div className=" hidden lg:flex gap-10">
                 <div className="">Home</div>
                 <div className="">About us</div>
