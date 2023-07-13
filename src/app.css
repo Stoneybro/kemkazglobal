@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card:after{
+    content:'';
+    position: absolute;
+    width: 3px;
+    height: 30px;
+    top: 10px;
+    left: 0;
+
+}
