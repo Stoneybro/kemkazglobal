@@ -8,7 +8,7 @@ const Nav = () => {
             <div className=" text-xl w-[12rem] md:w-64">
                 <img src={logo} />
             </div>
-            <div className="lg:hidden"><BiMenu size={30} color='#1F7CFF' /></div>
+            <div className="lg:hidden"><BiMenu size={30} color='#4775BA' /></div>
             <div className=" hidden lg:flex gap-14 items-center">
                 <div className="">Home</div>
                 <div className="">About us</div>
