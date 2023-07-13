@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { BiMenu,BiX } from 'react-icons/bi'
 import logo from '../assets/logo.svg'
 const Nav = () => {
-  const [toggle,SetToggle]=useState(true)
+  const [toggle,SetToggle]=useState(false)
   return (
     <div>
         <div className="flex items-center  justify-between py-6 px-6 lg:w-[1150px] mx-auto">
