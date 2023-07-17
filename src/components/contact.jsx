@@ -39,7 +39,7 @@ const Contact = () => {
                 <div className="text-xs mb-1 text-[#575455]">send us a message.</div>
                 <div className="text-left text-xs font-semibold underline ">kemkazglobal@gmail.com</div>
             </button>
-            <button className="border after:bg-[#F75C4E] border-opacity-25 p-4  w-full lg:w-56 flex flex-col items-start  gap-4 border-gray-400 card relative">
+            <button onClick={chatbutton} className="border after:bg-[#F75C4E] border-opacity-25 p-4  w-full lg:w-56 flex flex-col items-start  gap-4 border-gray-400 card relative">
            <div className=""> Chat with us</div>
            <div className="text-xs mb-1 text-[#575455]">speak to our friendly team</div>
            <div className="text-left text-xs font-semibold underline">+1(347) 283-3784</div>
