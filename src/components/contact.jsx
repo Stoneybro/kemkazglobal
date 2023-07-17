@@ -46,8 +46,12 @@ const Contact = () => {
             </button>
             <button onClick={mapbutton} className="border after:bg-[#5C4EF7] border-opacity-25 p-4  w-full lg:w-56 flex flex-col items-start  gap-4 border-gray-400 card relative">
             <div className="">Visit us</div>
-                <div className="text-xs mb-1 text-[#575455]">18,Comstock ave staten Island NY 10314</div>
-                <div className="text-left text-xs font-semibold underline">view on google maps</div>
+              <div className="mb-1 text-left">
+              <div className="text-xs  text-[#575455]">18,Comstock ave staten Island NY 10314</div>
+                <div className="text-xs  text-[#575455]">400,Stuyvesant ave Irvington NJ 07111</div>
+
+              </div>
+                             <div className="text-left text-xs font-semibold underline">view on google maps</div>
             </button>
             <button onClick={numberbutton} className="border after:bg-[#F7954E] border-opacity-25 p-4  w-full lg:w-56 flex flex-col items-start  gap-4 border-gray-400 card relative">
             <div className="">Call us</div>
