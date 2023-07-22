@@ -23,35 +23,35 @@ const Features = () => {
                     <div className="bg-[#F75C4E] rounded-full p-3 "><FaTruck size={25} color={'white'} /></div>
                     <div className=" flex flex-col gap-1">
                         <div className="font-semibold text-xl">Logistics</div>
-                        <div className="">we help you transfer your goods from and to other countries.... <Link to={'/import-export'} className='text-blue-700'>Read more</Link></div>
+                        <div className="">we provide efficient transportation and supply chain solutions for your goods and services... <Link to={'/logistics'} className='text-blue-700'>Read more</Link></div>
                     </div>
                 </div>
                 <div className="flex gap-3 items-start ">
                     <div className="bg-[#191046] rounded-full p-3 "><BiBuildingHouse size={25} color={'white'} /></div>
                     <div className=" flex flex-col gap-1">
                         <div className="font-semibold text-xl">Real Estate</div>
-                        <div className="">we help you transfer your goods from and to other countries.... <Link to={'/import-export'} className='text-blue-700'>Read more</Link></div>
+                        <div className="">we specialize in providing comprehensive real estate solutions tailored to meet the unique needs of clients in the dynamic real estate market... <Link to={'/estate'} className='text-blue-700'>Read more</Link></div>
                     </div>
                 </div>
                 <div className="flex gap-3 items-start ">
                     <div className="bg-[#FF1FB3] rounded-full p-3 "><BsGraphUpArrow size={25} color={'white'} /></div>
                     <div className=" flex flex-col gap-1">
                         <div className="font-semibold text-xl">Investments</div>
-                        <div className="">we help you transfer your goods from and to other countries.... <Link to={'/import-export'} className='text-blue-700'>Read more</Link></div>
+                        <div className="">we offer a comprehensive range of investment solutions designed to help clients achieve their financial goals ... <Link to={'/investment'} className='text-blue-700'>Read more</Link></div>
                     </div>
                 </div>
                 <div className="flex gap-3 items-start ">
                     <div className="bg-[#5C4EF7] rounded-full p-3 "><FaBusinessTime size={25} color={'white'} /></div>
                     <div className=" flex flex-col gap-1">
                         <div className="font-semibold text-xl">Business Consulting</div>
-                        <div className="">we help you transfer your goods from and to other countries.... <Link to={'/import-export'} className='text-blue-700'>Read more</Link></div>
+                        <div className="">Our business consulting solutions encompass a diverse array of offerings designed to address various challenges, drive growth, and optimize business performance... <Link to={'/business'} className='text-blue-700'>Read more</Link></div>
                     </div>
                 </div>
                 <div className="flex gap-3 items-start ">
                     <div className="bg-[#F7954E] rounded-full p-3 "><PiSoccerBallDuotone size={25} color={'white'} /></div>
                     <div className=" flex flex-col gap-1">
                         <div className="font-semibold text-xl ">Sports</div>
-                        <div className="">we help you transfer your goods from and to other countries.... <Link to={'/import-export'} className='text-blue-700'>Read more</Link></div>
+                        <div className="">we are passionate about sports and offer a wide range of specialized solutions tailored to cater to the needs of athletes, sports organizations, and talent agencies... <Link to={'/sports'} className='text-blue-700'>Read more</Link></div>
                     </div>
                 </div>
             </div>

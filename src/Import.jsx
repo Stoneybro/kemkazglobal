@@ -6,10 +6,10 @@ import imports from '/img/import.jpg'
 const Import = () => {
   return (
     <Layout>
-      <div className="font-semibold text-2xl px-4 pb-4 pt-2">Importation And Exportation</div>
         <div><img src={imports} alt="" /></div>
-        <div className="px-4 py-8">
-      <div className="font-medium mt-2 mb-4">At our company, we specialize in providing a comprehensive suite of importation and exportation solutions that cater to the diverse needs of businesses engaged in global trade. Our array of services is meticulously designed to ensure a smooth and efficient flow of goods across international borders, enabling our clients to navigate the complexities of the global market with confidence.
+        <div className="font-semibold text-2xl px-4 py-4 text-center">Importation And Exportation</div>
+        <div className="px-4 py-2">
+      <div className="font-medium text-justify mb-4">At our company, we specialize in providing a comprehensive suite of importation and exportation solutions that cater to the diverse needs of businesses engaged in global trade. Our array of services is meticulously designed to ensure a smooth and efficient flow of goods across international borders, enabling our clients to navigate the complexities of the global market with confidence.
       </div>
       <div className="text-justify flex flex-col gap-1">
 <div className="text-lg  font-medium mt-2">1. Regulatory Compliance:</div>
