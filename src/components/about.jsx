@@ -2,7 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="bg-[#476B9F]">
+    
+    <div className="bg-[#476B9F]" id='about'>
 
         <div className='lg:w-[950px] mx-auto text-white py-8 px-4'>
         <div className="text-4xl text-center py-6">About Us</div>

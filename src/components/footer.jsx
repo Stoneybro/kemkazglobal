@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
+import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
 import {FaWhatsapp,FaLinkedin,FaFacebook,FaInstagram,FaTwitter} from 'react-icons/fa'
 
 const Footer = () => {
@@ -10,10 +11,10 @@ const Footer = () => {
           <div className="w-64"><img src={logo} alt="" /></div>
             <div className="text-xs text-[#575455b7]">Empowering Success Through Integrated <br/>Solutions and Global Expertise</div>
             <div className="text-[#575455b7] flex gap-4   flex-col lg:flex-row">
-                <div className="">Home</div>
-                <div className="">About us</div>
-                <div className="">Services</div>
-                <div className="">Contact us</div>
+                <div className=""><HashLink smooth to='/#home'>Home</HashLink></div>
+                <div className=""><HashLink smooth to='/#about'>About us</HashLink></div>
+                <div className=""><HashLink smooth to='/#services'>Services</HashLink></div>
+                <div className=""> <HashLink smooth to='/#contact'>Contact Us</HashLink></div>
             </div>
           </div>
           <div className="flex flex-col gap-6 lg:items-end mt-4">

@@ -5,7 +5,6 @@ import {HiOutlineMail,HiOutlineLocationMarker} from 'react-icons/hi'
 import {BsTelephone} from 'react-icons/bs'
 
 
-
 const Contact = () => {
     const emailbutton=()=>{
         const mailtoUrl='mailto:kemkazglobal@gmail.com, little4reading@gmail.com';
@@ -29,12 +28,12 @@ const Contact = () => {
     }
     
   return (
-    <div className='py-16'>
+    <div className='py-16 ' id='contact'>
         <div className="flex items-center justify-center flex-col ">
        <div className="text-5xl">Contact us</div>
        <div className="text-sm text-[#575455] mb-8 lg:mb-12">let us know how we can help you</div>
-        <div className="flex gap-4 flex-wrap px-8 lg:px-4 items-center justify-center">
-            <button onClick={emailbutton} className="border border-gray-400 after:bg-primary border-opacity-25 p-4  w-full lg:w-56 flex flex-col items-start  gap-4 card relative">
+        <div className="flex gap-4 flex-wrap px-8 lg:px-4 items-center justify-center h-full">
+            <button onClick={emailbutton} className="border border-gray-400  after:bg-primary border-opacity-25 p-4  w-full lg:w-56 flex flex-col items-start  gap-4 card relative">
                 <div className="">Email us</div>
                 <div className="text-xs mb-1 text-[#575455]">send us a message.</div>
                 <div className="text-left text-xs font-semibold underline ">kemkazglobal@gmail.com</div>
