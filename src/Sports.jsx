@@ -4,9 +4,9 @@ import sports from '/img/sports.jpg'
 const Sports = () => {
   return (
             <Layout>
-            <div><img src={sports} alt="" /></div>
-            <div className="font-semibold text-2xl px-4 py-4 text-center">SPORTS</div>
-            <div className="px-4 py-2">
+            <div className='lg:hidden'><img src={sports} alt="" /></div>
+            <div className="font-semibold text-2xl px-4 lg:text-4xl lg:my-4 py-4 text-center">SPORTS</div>
+            <div className="px-4 py-2 lg:w-[950px] mx-auto">
           <div className="font-medium text-justify mb-4">
 At our company, we are passionate about sports and offer a wide range of specialized solutions tailored to cater to the needs of athletes, sports organizations, and talent agencies. With a deep understanding of the sports industry and a commitment to excellence, our sports services encompass a diverse array of offerings to support and empower the world of sports
           </div>

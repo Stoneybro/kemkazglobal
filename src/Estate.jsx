@@ -4,9 +4,9 @@ import estate from '/img/estate.jpg'
 const Estate = () => {
   return (
     <Layout>
-    <div><img src={estate} alt="" /></div>
-    <div className="font-semibold text-2xl px-4 py-4 text-center">REAL ESTATE</div>
-    <div className="px-4 py-2">
+    <div className='lg:hidden'><img src={estate} alt="" /></div>
+    <div className="font-semibold text-2xl px-4 py-4 text-center lg:text-4xl lg:my-4">REAL ESTATE</div>
+    <div className="px-4 py-2 lg:w-[950px] mx-auto">
   <div className="font-medium text-justify mb-4">
   At our company, we specialize in providing comprehensive real estate solutions tailored to meet the unique needs of clients in the dynamic real estate market. With a deep understanding of the industry and a commitment to excellence, our real estate services encompass a diverse range of offerings to facilitate seamless transactions and support clients in achieving their property goals.
   </div>
