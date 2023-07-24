@@ -5,6 +5,7 @@ import {HashLink} from 'react-router-hash-link'
 import logo from '../assets/logo.svg'
 const Nav = () => {
   const [toggle,SetToggle]=useState(false)
+  const [nav,setNav]=useState(true)
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -80; 
@@ -22,7 +23,15 @@ const Nav = () => {
             {toggle&&<div className='w-screen h-screen fixed z-10 top-0 left-0 bg-[#fffffff6] justify-center items-center flex flex-col gap-8 text-2xl font-medium'>
                 <div className="" onClick={(e)=>SetToggle(!toggle)} ><HashLink scroll={scrollWithOffset} smooth to='/#home'>Home</HashLink></div>
                 <div className="" onClick={(e)=>SetToggle(!toggle)}><HashLink smooth scroll={scrollWithOffset} to='/#about'>About us</HashLink></div>
-                <div className="" onClick={(e)=>SetToggle(!toggle)}><HashLink smooth scroll={scrollWithOffset} to='/#services'>Services</HashLink></div>
+                <div className={`${!nav&&'text-blue-500'} `} onClick={e=>setNav(!nav)} >Services</div>
+                <div className= {`text-base   justify-center items-center flex-col -mt-4 gap-4 ${nav?'hidden':'flex'} lg:hidden`}>
+                <HashLink onClick={(e)=>SetToggle(!toggle)}  smooth to='/import-export'>Importation and Exportation</HashLink>
+                <HashLink onClick={(e)=>SetToggle(!toggle)}  smooth to='/logistics'>Logistics</HashLink>
+                <HashLink onClick={(e)=>SetToggle(!toggle)}  smooth to='/estate'>Real Estate</HashLink>
+                <HashLink onClick={(e)=>SetToggle(!toggle)}  smooth to='/investment'>Investments</HashLink>
+                <HashLink onClick={(e)=>SetToggle(!toggle)}  smooth to='/business'>Business Consulting</HashLink>
+                <HashLink onClick={(e)=>SetToggle(!toggle)}  smooth to='/sports'>Sports</HashLink>
+                </div>
                 <div className="" onClick={(e)=>SetToggle(!toggle)}> <HashLink smooth scroll={scrollWithOffset} to='/#contact'>Contact Us</HashLink></div>
               </div>}
             <div className=" hidden lg:flex gap-14 items-center">
