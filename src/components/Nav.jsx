@@ -17,7 +17,8 @@ const Nav = () => {
     <div className='sticky top-0 w-full bg-[#ffffffff] z-50' >
         <div className="flex items-center  justify-between py-6 px-6 lg:w-[1150px] mx-auto">
             <div className=" text-xl w-[12rem] md:w-64">
-                <img src={logo} />
+            <HashLink to='/'> <img src={logo} /></HashLink>
+               
             </div>            
             <div className={`lg:hidden z-20 ${toggle&&'fixed'} right-6`}   onClick={(e)=>SetToggle(!toggle)} >{toggle?<BiX size={30} color='#4775BA' />:<BiMenu size={30} color='#4775BA' />}</div>
             {toggle&&<div className='w-screen h-screen fixed z-10 top-0 left-0 bg-[#fffffff6] justify-center items-center flex flex-col gap-8 text-2xl font-medium'>
