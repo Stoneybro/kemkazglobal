@@ -12,7 +12,7 @@ const Hero = () => {
             With our extensive global knowledge and versatile solutions, we empower businesses to succeed in importation, exportation, and beyond.</div>
             <HashLink smooth to='/#contact'> <button className='bg-primary px-6 py-2 rounded-3xl hover:scale-105   text-white transition duration-300'>Get Started</button></HashLink>
         </div>
-        <div className="flex-1 mt-8 lg:mt-0">
+        <div className=" flex-[1.5] mt-8 lg:mt-0">
         <img src={hero} alt="" srcset="" />
         </div>
     </div>
