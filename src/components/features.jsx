@@ -50,7 +50,7 @@ const Features = () => {
         <div className="text-white flex gap-2 flex-wrap lg:justify-center mx-auto items-center">
             {data.map((data)=>{
                 return(
-                    <div className={`${select===data.topic&&'bg-black'} transition-all duration-500  px-4 py-2 rounded-full`} onClick={()=>setSelect(data.topic)}>{data.topic}</div>
+                    <div className={`${select===data.topic&&'bg-black'} transition-all duration-500  px-4 py-2 rounded-full border-[1px] border-black`} onClick={()=>setSelect(data.topic)}>{data.topic}</div>
                 )
             })}
 
