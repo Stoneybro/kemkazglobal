@@ -10,8 +10,8 @@ const Home = () => {
     <Layout>
     <Hero />
      <Text />
+     <About />
      <Features />
-    <About />
 
     </Layout>
 

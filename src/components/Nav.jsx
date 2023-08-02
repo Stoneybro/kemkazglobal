@@ -35,11 +35,11 @@ const Nav = () => {
                 </div>
                 <div className="" onClick={(e)=>SetToggle(!toggle)}> <HashLink smooth scroll={scrollWithOffset} to='/#contact'>Contact Us</HashLink></div>
               </div>}
-            <div className=" hidden lg:flex gap-14 items-center">
+            <div className=" hidden lg:flex gap-14 items-center text-lg font-medium">
                 <div className="">Home</div>
                 <div className=""><HashLink  smooth to='/#about'>About us</HashLink></div>
                 <div className=""><HashLink smooth to='/#services'>Services</HashLink></div>
-                <HashLink smooth to='/#contact'><button className=" hidden lg:block bg-primary px-6 py-2 rounded-3xl hover:border-primary border hover:scale-105 text-white transition duration-300">Contact us</button></HashLink>
+                <HashLink smooth to='/#contact'><button className=" hidden lg:block bg-primary px-6 py-2 rounded-3xl hover:border-primary border hover:scale-105 text-white transition duration-300 font-normal">Contact us</button></HashLink>
             </div>
         </div>
     </div>
