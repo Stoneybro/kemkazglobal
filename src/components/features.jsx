@@ -12,22 +12,22 @@ const Features = () => {
     const data=[
         {
             topic:'Importation And Exportation',
-            content:"At our company, we specialize in providing a comprehensive suite of importation and exportation solutions that cater to the diverse needs of businesses engaged in global trade. Our array of services is meticulously designed to ensure a smooth and efficient flow of goods across international borders, enabling our clients to navigate the complexities of the global market with confidence. we take pride in our expertise and dedication to facilitating seamless importation and exportation processes. Whether it's within the United States or across borders, our comprehensive services are designed to empower businesses to thrive in the global market.",
+            content:"At our company, we specialize in providing a comprehensive suite of importation and exportation solutions that cater to the diverse needs of businesses engaged in global trade. Our array of services is meticulously designed to ensure a smooth and efficient flow of goods across international borders, enabling our clients to navigate the complexities of the global market with confidence. Whether it's within the United States or across borders, our comprehensive services are designed to empower businesses to thrive in the global market.",
             link:'/import-export'
         },
         {
             topic:'Logistics',
-            content:"At our company, we take pride in offering an extensive array of logistics services tailored to meet the diverse needs of businesses seeking streamlined and efficient transportation and supply chain solutions. With a relentless focus on delivering excellence, our logistics services encompass a wide range of specialized solutions to ensure the seamless movement of goods and optimize supply chain operations.we are committed to meeting our clients' unique logistical needs and exceeding their expectations. With a strong emphasis on reliability, efficiency, and customer satisfaction, we strive to be the trusted partner that empowers businesses to navigate the challenges of logistics successfully and seize new opportunities in a rapidly evolving global market.",
+            content:"At our company, we take pride in offering an extensive array of logistics services tailored to meet the diverse needs of businesses seeking streamlined and efficient transportation and supply chain solutions. we are committed to meeting our clients' unique logistical needs and exceeding their expectations. With a strong emphasis on reliability, efficiency, and customer satisfaction, we strive to be the trusted partner that empowers businesses to navigate the challenges of logistics successfully and seize new opportunities in a rapidly evolving global market.",
             link:'/logistics'
         },
         {
             topic:'Real estate',
-            content:"At our company, we specialize in providing comprehensive real estate solutions tailored to meet the unique needs of clients in the dynamic real estate market. With a deep understanding of the industry and a commitment to excellence, our real estate services encompass a diverse range of offerings to facilitate seamless transactions and support clients in achieving their property goals. we are committed to delivering exceptional real estate services, empowering clients to make well-informed decisions and achieve their real estate aspirations. With a customer-centric approach, extensive market knowledge, and a passion for excellence, we are dedicated to helping clients thrive in the ever-evolving real estate industry.",
+            content:"At our company, we specialize in providing comprehensive real estate solutions tailored to meet the unique needs of clients in the dynamic real estate market. With a deep understanding of the industry and a commitment to excellence, our real estate services encompass a diverse range of offerings to facilitate seamless transactions and support clients in achieving their property goals. With a customer-centric approach, extensive market knowledge, and a passion for excellence, we are dedicated to helping clients thrive in the ever-evolving real estate industry.",
             link:'/estate'
         },
         {
             topic:'Investments',
-            content:"At our company, we offer a comprehensive range of investment solutions designed to help clients achieve their financial goals and build wealth for the future. With a keen focus on maximizing returns and managing risk, our investment services encompass a diverse array of offerings to cater to various investment preferences and objectives.we understand that every investor is unique, and our client-centric approach ensures that our investment solutions are tailored to meet individual needs and aspirations. With a dedication to delivering exceptional service, prudent investment strategies, and a commitment to financial growth, we are dedicated to helping our clients navigate the complexities of the investment landscape and achieve financial success.",
+            content:"At our company, we offer a comprehensive range of investment solutions designed to help clients achieve their financial goals and build wealth for the future. With a keen focus on maximizing returns and managing risk, our investment services encompass a diverse array of offerings to cater to various investment preferences and objectives.we understand that every investor is unique, and our client-centric approach ensures that our investment solutions are tailored to meet individual needs and aspirations. ",
             link:'/invest'
         },
         {
@@ -50,7 +50,7 @@ const Features = () => {
         <div className="text-white flex gap-2 flex-wrap lg:justify-center mx-auto items-center">
             {data.map((data)=>{
                 return(
-                    <div className={`${select===data.topic&&'bg-black'} transition-all duration-500  px-4 py-2 rounded-full border-[1px] border-[#00000034]`} onClick={()=>setSelect(data.topic)}>{data.topic}</div>
+                    <div className={`${select===data.topic&&'bg-black'} transition-all duration-500  px-4 py-2 rounded-full border-[1px] border-[#00000034] cursor-pointer`} onClick={()=>setSelect(data.topic)}>{data.topic}</div>
                 )
             })}
 
@@ -62,7 +62,7 @@ const Features = () => {
                 <div className="text-2xl font-medium">{output[0].topic}</div>
                 <div className="text-sm leading-8">{output[0].content}</div>
             </div>
-            <button className=" self-start px-4 py-2 rounded-full bg-black text-white">Read More</button>
+            <Link to={output[0].link}><button className=" self-start px-4 py-2 rounded-full bg-black text-white">Read More</button></Link> 
         </div>
         
 
