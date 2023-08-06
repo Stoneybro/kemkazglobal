@@ -11,13 +11,13 @@ const Features = () => {
     const [select,setSelect]=useState('Importation And Exportation')
     const data=[
         {
-            topic:'Importation And Exportation',
+            topic:'Import And Export',
             content:"At our company, we specialize in providing a comprehensive suite of importation and exportation solutions that cater to the diverse needs of businesses engaged in global trade. Our array of services is meticulously designed to ensure a smooth and efficient flow of goods across international borders, enabling our clients to navigate the complexities of the global market with confidence. Whether it's within the United States or across borders, our comprehensive services are designed to empower businesses to thrive in the global market.",
             link:'/import-export'
         },
         {
             topic:'Logistics',
-            content:"At our company, we take pride in offering an extensive array of logistics services tailored to meet the diverse needs of businesses seeking streamlined and efficient transportation and supply chain solutions. we are committed to meeting our clients' unique logistical needs and exceeding their expectations. With a strong emphasis on reliability, efficiency, and customer satisfaction, we strive to be the trusted partner that empowers businesses to navigate the challenges of logistics successfully and seize new opportunities in a rapidly evolving global market.",
+            content:"At our delivery company, we're proud to offer a wide range of services that help businesses transport goods smoothly and efficiently. We care about meeting your specific needs and exceeding your expectations. We focus on being reliable, fast, and making sure you're happy with our service. Think of us as your trusted partner, helping you tackle logistics challenges and take advantage of opportunities in the global market. When it comes to delivering goods, we've got you covered with our expert solutions and dedication to doing a great job.",
             link:'/logistics'
         },
         {
