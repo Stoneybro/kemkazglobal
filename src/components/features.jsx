@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 
 const Features = () => {
-    const [select,setSelect]=useState('Importation And Exportation')
+    const [select,setSelect]=useState('Import And Export')
     const data=[
         {
             topic:'Import And Export',
