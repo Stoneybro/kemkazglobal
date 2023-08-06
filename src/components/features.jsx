@@ -17,7 +17,7 @@ const Features = () => {
         },
         {
             topic:'Logistics',
-            content:"At our delivery company, we're proud to offer a wide range of services that help businesses transport goods smoothly and efficiently. We care about meeting your specific needs and exceeding your expectations. We focus on being reliable, fast, and making sure you're happy with our service. Think of us as your trusted partner, helping you tackle logistics challenges and take advantage of opportunities in the global market. When it comes to delivering goods, we've got you covered with our expert solutions and dedication to doing a great job.",
+            content:"At our company, we're proud to offer a wide range of services that help businesses transport goods smoothly and efficiently. We care about meeting your specific needs and exceeding your expectations. We focus on being reliable, fast, and making sure you're happy with our service. Think of us as your trusted partner, helping you tackle logistics challenges and take advantage of opportunities in the global market. When it comes to delivering goods, we've got you covered with our expert solutions and dedication to doing a great job.",
             link:'/logistics'
         },
         {
