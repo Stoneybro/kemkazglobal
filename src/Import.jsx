@@ -7,6 +7,7 @@ const Import = () => {
   return (
     <Layout>
         <div className='lg:hidden'><img src={imports} alt="" /></div>
+        <div className="bg-[#D9EBFF] pt-6">
         <div className="font-semibold text-2xl lg:text-4xl lg:my-4 px-4 py-4 text-center">Importation And Exportation</div>
         <div className="px-4 py-2 lg:w-[950px] mx-auto">
       <div className="font-medium text-justify mb-4">At our company, we specialize in providing a comprehensive suite of importation and exportation solutions that cater to the diverse needs of businesses engaged in global trade. Our array of services is meticulously designed to ensure a smooth and efficient flow of goods across international borders, enabling our clients to navigate the complexities of the global market with confidence.
@@ -38,7 +39,7 @@ At Kemkaz global, we take pride in our expertise and dedication to facilitating 
 
         </div>
         </div>
-
+        </div>
     </Layout>
    
   )

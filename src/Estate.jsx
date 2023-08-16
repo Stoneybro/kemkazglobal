@@ -5,6 +5,7 @@ const Estate = () => {
   return (
     <Layout>
     <div className='lg:hidden'><img src={estate} alt="" /></div>
+    <div className="bg-[#D9EBFF] pt-6">
     <div className="font-semibold text-2xl px-4 py-4 text-center lg:text-4xl lg:my-4">REAL ESTATE</div>
     <div className="px-4 py-2 lg:w-[950px] mx-auto">
   <div className="font-medium text-justify mb-4">
@@ -47,7 +48,7 @@ At kemkaz global, we are committed to delivering exceptional real estate service
 
     </div>
     </div>
-
+    </div>
 </Layout>
   )
 }

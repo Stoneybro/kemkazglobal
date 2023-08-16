@@ -5,6 +5,7 @@ const Logistics = () => {
   return (
               <Layout>
                   <div className='lg:hidden'><img src={logistics} alt="" /></div>
+                  <div className="bg-[#D9EBFF] pt-6">
                   <div className="font-semibold text-2xl px-4 py-4 text-center lg:text-4xl lg:my-4">Logistics</div>
                   <div className="px-4 py-2 lg:w-[950px] mx-auto">
                 <div className="font-medium text-justify mb-4">At our company, we take pride in offering an extensive array of logistics services tailored to meet the diverse needs of businesses seeking streamlined and efficient transportation and supply chain solutions. With a relentless focus on delivering excellence, our logistics services encompass a wide range of specialized solutions to ensure the seamless movement of goods and optimize supply chain operations.
@@ -35,7 +36,7 @@ const Logistics = () => {
 
                   </div>
                   </div>
-
+</div>
               </Layout>
             
 

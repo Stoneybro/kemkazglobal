@@ -5,6 +5,7 @@ const Investment = () => {
   return (
     <Layout>
     <div className='lg:hidden'><img src={invest} alt="" /></div>
+    <div className="bg-[#D9EBFF] pt-6">
     <div className="font-semibold text-2xl px-4 py-4 text-center lg:text-4xl lg:my-4">INVESTMENTS</div>
     <div className="px-4 py-2 lg:w-[950px] mx-auto">
   <div className="font-medium text-justify mb-4">
@@ -45,7 +46,7 @@ At Kemkaz global, we understand that every investor is unique, and our client-ce
 
     </div>
     </div>
-
+    </div>
 </Layout>
   )
 }

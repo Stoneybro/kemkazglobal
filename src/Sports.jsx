@@ -5,6 +5,7 @@ const Sports = () => {
   return (
             <Layout>
             <div className='lg:hidden'><img src={sports} alt="" /></div>
+            <div className="bg-[#D9EBFF] pt-6">
             <div className="font-semibold text-2xl px-4 lg:text-4xl lg:my-4 py-4 text-center">SPORTS</div>
             <div className="px-4 py-2 lg:w-[950px] mx-auto">
           <div className="font-medium text-justify mb-4">
@@ -43,7 +44,7 @@ At our company, we are passionate about sports and offer a wide range of special
 
             </div>
             </div>
-
+    </div>
         </Layout>
   )
 }
