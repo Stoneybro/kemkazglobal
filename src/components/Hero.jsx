@@ -3,9 +3,9 @@ import hero from '/img/hero.jpg'
 import { HashLink } from 'react-router-hash-link/dist/react-router-hash-link.cjs.production'
 const Hero = () => {
   return (
-    <div id='home' className="flex  lg:flex-row flex-col-reverse lg:w-[1150px] bg-[url('/img/hero.jpg')]  bg-no-repeat bg-center bg-cover mx-auto items-center px-6 py-6 lg:py-12 gap lg:h-[calc(100vh-89px)]">
+    <div id='home' className="flex  lg:flex-row flex-col-reverse lg:w-[1150px] bg-[url('/img/hero.jpg')]  bg-no-repeat bg-center lg:bg-contain bg-[length:120%] mx-auto items-center px-6 py-6 lg:py-12 gap lg:h-[calc(100vh-89px)]">
         <div className="flex-1 flex flex-col gap-6 items-start">
-            <div className="text-5xl leading-normal">
+            <div className="text-4xl leading-normal">
             Empowering Success Through Integrated Solutions and Global Expertise
             </div>
             <div className=" text-black text-xl">
